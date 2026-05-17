@@ -1,13 +1,13 @@
 import React from 'react'
-import Navbar from '../Componennts/Navbar'
-import Hero from '../Componennts/Hero'
-import Categories from '../Componennts/categories'
-import Footer from '../Componennts/footer'
-import ProductSection from '../Componennts/ProductSection'
-import CollectionSection from '../Componennts/CollectionSection'
-import IntroSection from '../Componennts/IntroSection'
-import ReviewSection from '../Componennts/ReviewSection'
-import JoinUs from '../Componennts/JoinUs'
+import Navbar from '../Components/Navbar'
+import Hero from '../Components/Hero'
+import Categories from '../Components/categories'
+import Footer from '../Components/footer'
+import ProductSection from '../Components/ProductSection'
+import CollectionSection from '../Components/CollectionSection'
+import IntroSection from '../Components/IntroSection'
+import ReviewSection from '../Components/ReviewSection'
+import JoinUs from '../Components/JoinUs'
 
 
 
@@ -17,7 +17,6 @@ export default function() {
     <div>
       <Navbar></Navbar>
       <Hero></Hero>
-      <Categories></Categories>
       <ProductSection></ProductSection>
       <CollectionSection></CollectionSection>
       <IntroSection></IntroSection>
