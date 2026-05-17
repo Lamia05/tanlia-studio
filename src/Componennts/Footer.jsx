@@ -1,96 +1,87 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
 
+const Footer = () => {
+  return (
+    <footer className="bg-[#FAF8F5] text-gray-700 px-10 py-12">
 
-const Footer= () => {
+      {/* TOP GRID */}
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-10 border-b border-gray-300">
 
-     return (
-        <footer className="bg-gray-900 text-white">
-            <div className="bg-green-100 text-center py-2">
-                <h2 className="text-3xl font-bold text-gray-800 mb-2">Join Our Eco Community</h2>
-                <p className="text-gray-600 mb-6">Get exclusive eco-tips, sustainable product updates, and special
-          offers delivered to your inbox</p>
-                <div className="flex justify-center items-center gap-3 mb-6">
-                    <input type="Email" placeholder="Enter your email address" className="px-4 py-2 rounded-lg border border-gray-300 w-72 focus:outline-none"></input>
-                    <button className="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-lg">Subscribe</button>
+        {/* BRAND SECTION */}
+        <div>
+          {/* Name */}
+          <h1 className="text-3xl font-bold tracking-wide">
+            VELNORE
+          </h1>
 
-                </div>
+          {/* Logo under name */}
+          <img
+            src="/logo.png"
+            alt="logo"
+            className="w-28 h-28 mt-3 rounded-full object-cover"
+          />
 
-                <div className="flex justify-center space-x-4 text-gray-700">
-                    <FaFacebook></FaFacebook>
-                    <FaTwitter></FaTwitter>
-                     <FaInstagram></FaInstagram>
-                     <FaYoutube></FaYoutube>
+          {/* Text under logo */}
+          <p className="mt-3 text-sm text-gray-500">
+            Modern fashion for everyday elegance.
+          </p>
+        </div>
 
+        {/* SHOP */}
+        <div>
+          <h3 className="font-semibold mb-3">Shop</h3>
+          <ul className="space-y-2 text-sm text-gray-500">
+            <li>All Products</li>
+            <li>Women</li>
+            <li>Men</li>
+            <li>Accessories</li>
+            <li>New Arrivals</li>
+            <li>Sale</li>
+          </ul>
+        </div>
 
+        {/* HELP */}
+        <div>
+          <h3 className="font-semibold mb-3">Help</h3>
+          <ul className="space-y-2 text-sm text-gray-500">
+            <li>Contact Us</li>
+            <li>FAQ</li>
+            <li>Shipping & Delivery</li>
+            <li>Returns & Refunds</li>
+          </ul>
+        </div>
 
-                </div>
-            </div>
+        {/* COMPANY */}
+        <div>
+          <h3 className="font-semibold mb-3">Company</h3>
+          <ul className="space-y-2 text-sm text-gray-500">
+            <li>About Us</li>
+            <li>Our Story</li>
+            <li>Lookbook</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+          </ul>
+        </div>
 
+        {/* PARTNERS */}
+<div className="mt-10 md:col-span-4">
+  <h3 className="text-center font-semibold mb-4">Our Partners</h3>
 
-            <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-8 px-6 py-12">
-                <div>
-                    <h3 className="text-2xl font-semibold text-white mb-3">Cartico</h3>
-                    <p className="text-sm text-gray-400">
-                        Making sustainable shopping accessible to everyone. Join us in
-            creating a greener future for our planet.
+  <div className="flex justify-center items-center gap-8 flex-wrap">
+    <img src="/Partner1.png" alt="Partner 1" className="w-20 h-20 object-contain" />
+    <img src="/Partner2.jpg" alt="Partner 2" className="w-20 h-20 object-contain" />
+  </div>
+</div>
 
-                        </p>
-                    </div>
-
-                    <div>
-                        <h3 className="text-white font-semibold mb-3">Customer Service</h3>
-                        <ul className="space-y-2 text-sm text-gray-400">
-                            <li>Contact Us</li>
-                            <li>Shipping Info</li>
-                            <li>Returns & Exchanges</li>
-                            <li>Size Guide</li>
-                            <li>FAQ</li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h3 className="text-white font-semibold mb-3">Product Categories</h3>
-                        <ul className="space-y-2 text-sm text-gray-400">
-                            <li>Organic Food</li>
-                            <li>Eco Beauty</li>
-                            <li>Sustainable Fashion</li>
-                            <li>Green Home</li>
-                            <li>Zero Waste</li>
-                        </ul>
-                    </div>
-
-
-                    <div>
-                        <h3 className="text-white font-semibold mb-3">Company</h3>
-                        <ul className="space-y-2 text-sm text-gray-400">
-                            <li>About</li>
-                            <li>Sustainability</li>
-                            <li>Press</li>
-                            <li>Careers</li>
-                            <li>Wholesale</li>
-                        </ul>
-                    </div>
-                    </div>
-
-                    <div className="border-t border-gray-700 text-center py-4 text-sm text-gray-500">
-                        © 2024 EcoCart. All rights reserved. |{" "}
-        <a href="#" className="hover:text-green-500">
-          Privacy Policy
-        </a>{" "}
-        |{" "}
-        <a href="#" className="hover:text-green-500">
-          Terms of Service
-        </a>
       </div>
+
+      {/* BOTTOM */}
+      <div className="text-center text-sm text-gray-500 mt-6">
+        © 2026 Velnore. All rights reserved.
+      </div>
+
     </footer>
   );
 };
-                    
+
 export default Footer;
-
-
-  

@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/zWvSqgWX/IMG-20260514-WA0080.jpg",
+    "badge": "Limited",
+    "overlayText": "Bridal Couture",
+    "category": "Saree",
+    "name": "Royal Silk Saree",
+    "price": "৳3500"
+  },
+  {
+    "id": 2,
+    "image": "/image2.jpg",
+    "badge": "New",
+    "overlayText": "Elegant Abaya",
+    "category": "Abaya",
+    "name": "Black Pearl Abaya",
+    "price": "৳2800"
+  },
+  {
+    "id": 3,
+    "image": "/image3.jpg",
+    "badge": "Exclusive",
+    "overlayText": "Summer Edit",
+    "category": "Dress",
+    "name": "Floral Maxi Dress",
+    "price": "৳2200"
+  },
+  
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/zWvSqgWX/IMG-20260514-WA0080.jpg",
+    "badge": "Limited",
+    "overlayText": "Bridal Couture",
+    "category": "Saree",
+    "name": "Royal Silk Saree",
+    "price": "৳3500"
+  },
+  {
+    "id": 5,
+    "image": "/image2.jpg",
+    "badge": "New",
+    "overlayText": "Elegant Abaya",
+    "category": "Abaya",
+    "name": "Black Pearl Abaya",
+    "price": "৳2800"
+  },
+  {
+    "id": 6,
+    "image": "/image3.jpg",
+    "badge": "Exclusive",
+    "overlayText": "Summer Edit",
+    "category": "Dress",
+    "name": "Floral Maxi Dress",
+    "price": "৳2200"
+  },
+  {
+
+    "id": 7,
+    "image": "https://i.ibb.co.com/zWvSqgWX/IMG-20260514-WA0080.jpg",
+    "badge": "Limited",
+    "overlayText": "Bridal Couture",
+    "category": "Saree",
+    "name": "Royal Silk Saree",
+    "price": "৳3500"
+  },
+  {
+    "id": 8,
+    "image": "/image2.jpg",
+    "badge": "New",
+    "overlayText": "Elegant Abaya",
+    "category": "Abaya",
+    "name": "Black Pearl Abaya",
+    "price": "৳2800"
+  },
+  {
+    "id": 9,
+    "image": "/image3.jpg",
+    "badge": "Exclusive",
+    "overlayText": "Summer Edit",
+    "category": "Dress",
+    "name": "Floral Maxi Dress",
+    "price": "৳2200"
+  },
+  
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/zWvSqgWX/IMG-20260514-WA0080.jpg",
+    "badge": "Limited",
+    "overlayText": "Bridal Couture",
+    "category": "Saree",
+    "name": "Royal Silk Saree",
+    "price": "৳3500"
+  },
+  {
+    "id": 11,
+    "image": "/image2.jpg",
+    "badge": "New",
+    "overlayText": "Elegant Abaya",
+    "category": "Abaya",
+    "name": "Black Pearl Abaya",
+    "price": "৳2800"
+  },
+  {
+    "id": 12,
+    "image": "/image3.jpg",
+    "badge": "Exclusive",
+    "overlayText": "Summer Edit",
+    "category": "Dress",
+    "name": "Floral Maxi Dress",
+    "price": "৳2200"
+  },
+  {
+  
+  
+    "id": 13,
+    "image": "https://i.ibb.co.com/zWvSqgWX/IMG-20260514-WA0080.jpg",
+    "badge": "Limited",
+    "overlayText": "Bridal Couture",
+    "category": "Saree",
+    "name": "Royal Silk Saree",
+    "price": "৳3500"
+  },
+  {
+    "id": 14,
+    "image": "/image2.jpg",
+    "badge": "New",
+    "overlayText": "Elegant Abaya",
+    "category": "Abaya",
+    "name": "Black Pearl Abaya",
+    "price": "৳2800"
+  },
+  {
+    "id": 15,
+    "image": "/image3.jpg",
+    "badge": "Exclusive",
+    "overlayText": "Summer Edit",
+    "category": "Dress",
+    "name": "Floral Maxi Dress",
+    "price": "৳2200"
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/vxmHtLPK/IMG-20260514-WA0062.jpg",
+    "category": "Art",
+    "name": "Handmade Sketch",
+    "price": "৳2800"
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co.com/qYNKT2KJ/IMG-20260514-WA0041.jpg",
+    "category": "Hizab",
+    "name": " Dubai Cherry Hizab Combo",
+    "price": "৳1000"
+  },
+  {
+  
+    "id": 18,
+    "image": "https://i.ibb.co.com/vxmHtLPK/IMG-20260514-WA0062.jpg",
+    "category": "Art",
+    "name": "Handmade Sketch",
+    "price": "৳2800"
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/qYNKT2KJ/IMG-20260514-WA0041.jpg",
+    "category": "Hizab",
+    "name": " Dubai Cherry Hizab Combo",
+    "price": "৳1000"
+  }
+
+
+
+
+
+]

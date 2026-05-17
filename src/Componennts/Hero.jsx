@@ -1,37 +1,62 @@
+import React from "react";
+import banner from "../assets/banner.jpg";
 
-
-
-
-
-
-import React from 'react'
-import banner from "../assets/banner.png"
-
-const   Hero =() => {
-
- return(
-        <section className="relative w-full h-screen bg-cover bg-center flex items-center justify-start px-8">
-
-            <div>
-            <img src={banner} alt="Eco Banner" className="absolute inset-0 object-cover w-full h-full" />
-        </div>
-            
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
-        <h1 className="text-2xl font-bold text-white mb-4 leading-tight">Shop Sustainably,<br></br> Live Responsibly</h1>  
-        <p className="text-gray-700 mb-2">Discover thousands of eco-friendly products that make a positive impact on our planet.<br></br>Every purchase helps build a susaintable future for generations to come</p>
-
-        <button className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg">Start Shopping</button>
-
+const Hero = () => {
+  return (
+    <section className="w-full h-screen bg-[#f8f5f2] px-6 md:px-12 lg:px-20 flex items-center">
+      
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-full gap-8 items-center">
         
+        {/* LEFT */}
+        <div className="space-y-8">
+          <p className="uppercase tracking-[6px] text-[#d48a4f] text-sm">
+            Autumn Edit · 2026
+          </p>
 
+          <h1 className="text-5xl md:text-7xl font-serif leading-tight text-[#1a0d0a]">
+            Quiet luxury, <br />
+            <span className="text-[#d48a4f]">stitched</span> <br />
+            <span className="text-[#d48a4f]">slow.</span>
+          </h1>
+
+          <p className="text-xl text-gray-700 max-w-md leading-relaxed">
+            Hand-embroidered abayas, festive anarkalis and heirloom sarees
+            designed for timeless elegance.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4">
+            <button className="px-6 py-3 bg-amber-950 text-white rounded-lg font-semibold hover:bg-gray-800 transition">
+              Shop Now
+            </button>
+
+            <button className="px-6 py-3 border-2 border-black text-black rounded-lg font-semibold hover:bg-black hover:text-white transition">
+              OUR STORY
+            </button>
+          </div>
         </div>
-        </section>
-    );
+
+        {/* RIGHT */}
+        <div className="relative h-full flex items-center">
+          <img
+            src={banner}
+            alt="main image"
+            className="w-full h-[80vh] object-cover rounded-lg"
+          />
+
+          <div className="absolute bottom-6 right-6 bg-[#ede8e1] p-6 w-64 shadow-lg">
+            <p className="uppercase text-xs tracking-[4px] text-gray-500 mb-2">
+              Featured
+            </p>
+            <h3 className="text-2xl font-serif text-[#1a0d0a]">
+              Ivory Anarkali Maxi
+            </h3>
+            <p className="text-xl text-[#d48a4f] mt-2">$218</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  );
 };
 
 export default Hero;
-
-
-
-
-

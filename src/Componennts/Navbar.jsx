@@ -1,55 +1,46 @@
-import React, { useState } from 'react'
+
+import React from "react";
 import { CiSearch } from "react-icons/ci";
 import { RiUser3Fill } from "react-icons/ri";
 import { CiShoppingCart } from "react-icons/ci";
 
-const Navbar= () => {
-  const[cartCount]= useState(3);
+const Navbar = () => {
   return (
-    <>
-    <nav className ="w-full bg-white shadow-sm fixed top-0 left-0 z-50 flex justify-between items-center px-8 py-4 text-white">                                                                                           
-        <div className="flex items-center gap-2 space-x-8">
-            <h1 className="text-2xl font-bold italic text-green-500 text-left">Cartico</h1>
-            <ul className="hidden md:flex  gap-6 font-medium text-gray-700">
-                <a href=""className="hover:text-green-400">Home</a>
-                <a href="" className="hover:text-green-400">Products</a>
-                <a href="" className="hover:text-green-400">About</a>
-                <a href=""className="hover:text-green-400">Sustainability</a>
-                <a href=""className="hover:text-green-400">Contact</a>
-                </ul>
-                </div>
+    <div className="w-full fixed top-0 left-0 z-50">
 
-                <div className="flex items-center space-x-6 rounded full">
-                  <div className="hidden sm:flex items-center border border-gray-300 hover:border-green-400 rounded-full px-4 py-2 bg-gray-50">
-                    <CiSearch className="text-gray-500 text-lg mr-2 "></CiSearch>                       
-                    <input type="text" placeholder="Search eco-friendly products..." className="bg-transparent focus:outline-none w-64 text-sm"></input>
+      {/* TOP BAR */}
+      <div className="w-full bg-amber-950 text-white text-sm py-2 flex justify-center">
+        <div className="text-white px-4 py-1">
+          FREE DELIVERY ON ORDERS OVER 1000 TK
+        </div>
+      </div>
 
-                  </div>
+      {/* MAIN NAVBAR */}
+      <div className="w-full bg-white shadow-md flex items-center justify-between px-6 py-3">
 
-                  <RiUser3Fill className="text-gray-700 text-xl cursor-pointer hover:text-green-500"></RiUser3Fill>
+        {/* LEFT MENU */}
+        <div className="flex items-center gap-6 text-gray-700 font-medium">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Shop</a>
+          <a href="#">Contact</a>
+        </div>
 
-                  <div className="relative cursor-pointer">
-                    <CiShoppingCart className="text-xl text-green-600"></CiShoppingCart>
-                    {cartCount > 0 && (
-                    
-                    
-                        <span className="absolute top-2 right-2 bg-green-500 text-xs px-1 rounded-full font-semibold w-5 h-5 flex items-center justify-center">
-                        {cartCount}
-                        </span>
+        {/* BRAND NAME */}
+        <div className="text-3xl font-bold tracking-wide">
+          Velnore
+        </div>
 
-                    
-                    )}
-                    </div>
-                    </div>                                                                        
-           
-          
+        {/* ICONS */}
+        <div className="flex items-center gap-4 text-2xl text-gray-700">
+          <CiSearch className="cursor-pointer" />
+          <RiUser3Fill className="cursor-pointer" />
+          <CiShoppingCart className="cursor-pointer" />
+        </div>
 
-                </nav>
-    </>
+      </div>
+    </div>
   );
 };
 
 export default Navbar;
-
-
-
