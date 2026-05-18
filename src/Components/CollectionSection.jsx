@@ -1,5 +1,7 @@
 import React from "react";
 import { FaHeart, FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
 
 const products = [
   {
@@ -13,7 +15,7 @@ const products = [
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co.com/8DkzRJtr/IMG-20260514-WA0061.jpg",
+    "image": "https://i.ibb.co.com/JjYbRTMx/IMG-20260514-WA0053.jpg",
     "badge": "",
     "category": "Art Canvas",
     "name": "HandPrinted Artisan",
@@ -150,17 +152,20 @@ const CollectionSection = () => {
       {/* heading */}
       <div className="flex justify-between items-end mb-12">
         <div>
-          <p className="text-sm uppercase tracking-[3px] text-gray-500">
-            New Collection
+          <p className="text-sm uppercase tracking-[3px] text-[#d48a4f]">
+            The Collection
           </p>
-          <h2 className="text-4xl font-semibold mt-2">
-            Discover Our Signature Styles
+          <h2 className="text-5xl  mt-2">
+            Pieces in residence
           </h2>
         </div>
 
-        <button className="flex items-center gap-2 text-black border-b border-black pb-1 font-medium">
-          View All <FaArrowRight size={12} />
+        <Link to ="/shop">
+
+        <button className="flex items-center gap-2 text-black border-b border-black pb-1 font-medium hover:text-[#d48a4f]">
+          VIEW ALL <FaArrowRight size={14} />
         </button>
+        </Link>
       </div>
 
       {/* product grid */}
@@ -203,7 +208,7 @@ const CollectionSection = () => {
               <p className="text-sm text-gray-500">{product.category}</p>
 
                 <h3 className="font-bold text-amber-950 mt-1">{product.name}</h3>
-                <span className="font-medium block mt-2">{product.price}</span>
+                <span className="text-pink-600 font-medium block mt-2">{product.price}</span>
               </div>
             </div>
           

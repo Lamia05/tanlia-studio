@@ -2,7 +2,7 @@ import React from "react";
 
 const IntroSection = () => {
   return (
-    <section className="w-full bg-[#f8f5f2] min-h-screen py-20 px-6">
+    <section className="w-full bg-[#f8f5f2] min-h-screen py-20 px-6 text-center">
       <p className="text-sm tracking-[4px] uppercase text-gray-500 mb-4">
         OUR ATELIER
       </p>

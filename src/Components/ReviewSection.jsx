@@ -5,17 +5,17 @@ const reviews = [
   {
     id: 1,
     text: "Absolutely loved the quality and design. The outfit felt elegant, comfortable, and perfect for special occasions.",
-    name: "Ayesha Rahman",
+    name: "Sanzida Akter",
   },
   {
     id: 2,
     text: "Beautiful collection with premium finishing. Delivery was smooth and the dress looked exactly like the pictures.",
-    name: "Nusrat Jahan",
+    name: "Abir",
   },
   {
     id: 3,
     text: "A perfect blend of tradition and modern style. I received so many compliments wearing their collection.",
-    name: "Sadia Islam",
+    name: "Nadia Afrin",
   },
 ];
 

@@ -8,6 +8,6 @@ import Home from './pages/Home.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Home></Home>
+    <App></App>
   </StrictMode>
 )
